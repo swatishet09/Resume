@@ -1,0 +1,99 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .back-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+header .back-btn:hover {
+    text-decoration: underline;
+}
+
+/* Home Page Styling */
+.home-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Page Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+p, ul {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
